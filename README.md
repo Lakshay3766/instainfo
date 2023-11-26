@@ -58,7 +58,7 @@ Navigate to the project directory:
 
 bash
 
-cd IG-OSINT
+cd instainfo
 
 Run the script:
 
