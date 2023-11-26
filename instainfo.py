@@ -2,11 +2,18 @@ import instaloader
 import sys
 from instaloader import Instaloader
 
-def insta_info_banner():
+#def insta_info_banner():
+def lakshay_banner():
     print("""
-INSTA INFO
-\033[41m=[===> Insta Info | https://github.com/lakshaymadaan3766 <===]=\n\033[0m""")
-insta_info_banner()
+██╗  █████╗  ██████╗██╗  ██╗███████╗
+██║ ██╔══██╗██╔════╝██║ ██╔╝██╔════╝
+██║ ███████║██║     █████╔╝ █████╗  
+██║ ██╔══██║██║     ██╔═██╗ ██╔══╝  
+██║ ██║  ██║╚██████╗██║  ██╗███████╗
+╚═╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
+         *    by Lakshay
+""")
+lakshay_banner()
 
 x = Instaloader()
 
