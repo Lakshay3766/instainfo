@@ -10,13 +10,13 @@ def banner():
 \033[32m██\033[0m║\033[32m██\033[0m║   \033[32m██\033[0m║    \033[32m██\033[0m║   \033[32m██\033[0m║╚════\033[32m██\033[0m║\033[32m██\033[0m║\033[32m██\033[0m║╚\033[32m██\033[0m╗\033[32m██\033[0m║   \033[32m██\033[0m║
 \033[32m██\033[0m║╚\033[32m██████\033[0m╔╝    ╚\033[32m██████\033[0m╔╝\033[32m███████\033[0m║\033[32m██\033[0m║\033[32m██\033[0m║ ╚\033[32m████\033[0m║   \033[32m██\033[0m║
 \033[0m╚═╝ ╚═════╝      ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝\033[0m
-\033[41m=[===> Lakshay Madaan | https://github.com/lakshaymadaan3766 <===]=\n\033[0m""")
+\033[41m=[===> Instagram Information | https://github.com/lakshaymadaan3766 <===]=\n\033[0m""")
 banner()
 
 x = Instaloader()
 
 try:
-    uname = input("\033[36mEnter a username \033[0m: \033[36m")
+    uname = input("\033[36mEnter an Instagram username \033[0m: \033[36m")
     if uname == "":
         print("\033[33mUnknown command!")
         sys.exit()
@@ -52,4 +52,3 @@ except KeyboardInterrupt:
 
 except EOFError:
     print("\033[33mWhy?")
-
